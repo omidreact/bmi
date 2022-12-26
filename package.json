@@ -9,13 +9,43 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/webpack-config": "^0.17.2",
+    "@react-navigation/material-top-tabs": "^6.5.1",
+    "@react-navigation/native": "^6.1.1",
+    "@react-navigation/native-stack": "^6.9.7",
+    "@react-navigation/stack": "^6.3.10",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@rneui/base": "github:react-native-elements/react-native-elements#base",
+    "@rneui/themed": "^4.0.0-rc.7",
     "expo": "~47.0.8",
     "expo-status-bar": "~1.4.2",
     "react": "18.1.0",
-    "react-native": "0.70.5"
+    "react-dom": "18.1.0",
+    "react-native": "0.70.5",
+    "react-native-element": "^1.2.1",
+    "react-native-elements": "^3.4.2",
+    "react-native-pager-view": "6.0.1",
+    "react-native-safe-area-context": "4.4.1",
+    "react-native-screens": "~3.18.0",
+    "react-native-tab-view": "^3.3.4",
+    "react-native-vector-icons": "^9.2.0",
+    "react-native-web": "~0.18.9",
+    "react-redux": "^8.0.5",
+    "redux": "^4.2.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "@redux-devtools/core": "^3.13.1"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {}
   },
   "private": true
 }
