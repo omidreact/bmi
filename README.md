@@ -9,4 +9,4 @@ my first app
 http://oreact.ir
 </br>
 first <b>npm install</b><br>
-second go to root and<b> expo start --web</b>
+second<b> expo start --web</b>
