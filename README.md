@@ -8,5 +8,5 @@ my first app
 <br/>
 http://oreact.ir
 </br>
-first <b>npm install</b>
-second go to root and<br><b> expo start --web</b>
+first <b>npm install</b><br>
+second go to root and<b> expo start --web</b>
